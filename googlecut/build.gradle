@@ -1,0 +1,55 @@
+import dependencies.versions
+import dependencies.deps
+import dependencies.plugin
+import dependencies.config
+import dependencies.testing
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+
+        testInstrumentationRunner config.testRunner
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        test.java.srcDirs += "src/testing/kotlin"
+    }
+}
+
+dependencies {
+    implementation plugin.kotlin.runtime
+
+    implementation project(':modules:error_handler')
+
+    implementation deps.androidX.navigation
+    implementation deps.androidX.navigationFragment
+
+    implementation deps.support.design
+
+    implementation deps.androidX.appCompat
+    implementation deps.androidX.constraintLayout
+
+    implementation deps.arch.extensions
+    implementation deps.arch.viewmodel
+
+    implementation deps.rx.java
+    implementation deps.rx.android
+
+    implementation deps.squareup.retrofit
+
+    api deps.koin.android
+    api deps.koin.viewModel
+
+    androidTestImplementation testing.junit
+    androidTestImplementation testing.runner
+    androidTestImplementation testing.rules
+}
