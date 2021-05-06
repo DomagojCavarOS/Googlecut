@@ -1,3 +1,8 @@
+include ':modules:api'
+include ':modules:api_common'
+include ':modules:error_handler'
+include ':modules:app_common'
+include ':features:dummy'
 include ':googlecut'
 include ':app'
 rootProject.name = "Googlecut"

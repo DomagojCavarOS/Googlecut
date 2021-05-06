@@ -1,0 +1,9 @@
+<resources>
+    <string name="try_again">Try again</string>
+    <!-- ListState -->
+    <string name="empty_list_title">This list is empty</string>
+    <string name="empty_description">The list you\'re looking for seems empty</string>
+    <string name="empty_search">Nothing matched your search criteria. Please try again with different keywords</string>
+    <string name="empty_description_map">The map you\'re looking for seems empty. Select another date.</string>
+    <string name="empty"></string>
+</resources>

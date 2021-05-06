@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="error_server_title">Ошибка сервера</string>
+    <string name="error_server_description">Сервер находится в режиме обслуживания. \n Пожалуйста, вернитесь позже.</string>
+
+    <string name="error_internet_title">Нет соединения с интернетом</string>
+    <string name="error_internet_description">Пожалуйста, проверьте ваше \n интернет-соединение и попробуйте снова.</string>
+
+    <string name="error_unexpected_error_title">Неожиданная ошибка</string>
+    <string name="error_unexpected_error_description">Произошла непредвиденная ошибка</string>
+
+    <string name="common_error">К сожалению, что-то пошло не так!</string>
+    <string name="try_again">Попробуйте еще раз</string>
+
+    <string name="incorrect_entries">Correct incorrect entries.</string>
+</resources>

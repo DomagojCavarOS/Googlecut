@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="error_server_title">Erreur du serveur</string>
+    <string name="error_server_description">Le serveur est en mode maintenance. \n Merci de revenir plus tard.</string>
+
+    <string name="error_internet_title">Pas de connexion Internet</string>
+    <string name="error_internet_description">S\'il vous plaît, vérifiez votre \n connexion à internet et réessayez.</string>
+
+    <string name="error_unexpected_error_title">Erreur inattendue</string>
+    <string name="error_unexpected_error_description">Erreur inattendue est apparue</string>
+
+    <string name="common_error">Oops! Quelque chose a mal tourné!</string>
+    <string name="try_again">Réessayer</string>
+
+    <string name="incorrect_entries">Correct incorrect entries.</string>
+</resources>

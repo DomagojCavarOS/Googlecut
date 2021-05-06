@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="error_server_title">Pogreška servera</string>
+    <string name="error_server_description">Server je u statusu održavanju. \n Vratite se kasnije.</string>
+
+    <string name="error_internet_title">Nema internetske veze</string>
+    <string name="error_internet_description">Provjerite internetsku vezu \n i pokušajte ponovo.</string>
+
+    <string name="error_unexpected_error_title">Neočekivana pogreška</string>
+    <string name="error_unexpected_error_description">Došlo je do neočekivane pogreške</string>
+
+    <string name="common_error">Ups! Nešto je pošlo po zlu!</string>
+    <string name="try_again">Pokušajte ponovo</string>
+
+    <string name="incorrect_entries">Correct incorrect entries.</string>
+</resources>

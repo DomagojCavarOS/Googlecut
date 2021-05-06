@@ -41,13 +41,10 @@ dependencies {
     implementation deps.arch.extensions
     implementation deps.arch.viewmodel
 
-    implementation deps.rx.java
-    implementation deps.rx.android
-
     implementation deps.squareup.retrofit
 
-    api deps.koin.android
-    api deps.koin.viewModel
+    implementation deps.koin.android
+    implementation deps.koin.ext
 
     androidTestImplementation testing.junit
     androidTestImplementation testing.runner

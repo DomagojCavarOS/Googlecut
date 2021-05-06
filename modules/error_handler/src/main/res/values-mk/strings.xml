@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="error_server_title">Грешка во серверот</string>
+    <string name="error_server_description">Серверот е во режим на одржување. \n Ве молиме вратете се подоцна</string>
+
+    <string name="error_internet_title">Нема интернет врска</string>
+    <string name="error_internet_description">Ве молиме проверете ја вашата интернет \n врска и обидете се повторно</string>
+
+    <string name="error_unexpected_error_title">Неочекувана грешка</string>
+    <string name="error_unexpected_error_description">Дојде до неочекувана грешка</string>
+
+    <string name="common_error">Упс! Нешто тргна наопаку!</string>
+    <string name="try_again">Обидете се повторно</string>
+
+    <string name="incorrect_entries">Correct incorrect entries.</string>
+</resources>

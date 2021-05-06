@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--FrameLayoutWithRatio-->
+    <declare-styleable name="FrameLayoutWithRatio">
+        <attr name="frameRatio" format="float" />
+    </declare-styleable>
+</resources>

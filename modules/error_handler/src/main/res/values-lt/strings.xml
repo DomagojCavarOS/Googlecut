@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="error_server_title">Tinklo klaida</string>
+    <string name="error_server_description">Vykdoma tinklo priežiūra, \n prašau pabadykite vėliau</string>
+
+    <string name="error_internet_title">Nėra interneto ryšio</string>
+    <string name="error_internet_description">Prašau įsitikinkite, jog jūsų įrenginys \n prijungtas prie interneto ryšio</string>
+
+    <string name="error_unexpected_error_title">Nenumatyta klaida</string>
+    <string name="error_unexpected_error_description">Įvyko nenumatyta klaida</string>
+
+    <string name="common_error">O ne.. Kažkas atsitiko ne taip</string>
+    <string name="try_again">Pabandykite iš naujo</string>
+
+    <string name="incorrect_entries">Correct incorrect entries.</string>
+</resources>

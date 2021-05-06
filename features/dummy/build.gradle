@@ -1,0 +1,60 @@
+import dependencies.config
+import dependencies.deps
+import dependencies.plugin
+import dependencies.versions
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+    compileSdkVersion versions.compileSdk
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        versionCode config.versionCode
+        versionName config.versionName
+        testInstrumentationRunner config.testRunner
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        test.java.srcDirs += "src/testing/kotlin"
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+kapt {
+    correctErrorTypes = true
+}
+
+dependencies {
+    implementation plugin.kotlin.runtime
+    implementation project(':googlecut')
+    implementation project(':modules:app_common')
+    implementation project(':modules:api_common')
+
+    implementation deps.kotlinx.coroutines
+
+    implementation deps.arch.extensions
+    implementation deps.arch.viewmodel
+
+    implementation deps.androidX.appCompat
+    implementation deps.androidX.constraintLayout
+}

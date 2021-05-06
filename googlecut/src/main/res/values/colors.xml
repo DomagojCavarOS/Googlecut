@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- White Scale -->
+    <color name="white_70">#3EFFFFFF</color>
+
+    <!-- Black Scale -->
+    <color name="black_cobalt">#24242E</color>
+    <color name="gray_sky_line">#727272</color>
+
+    <!-- Red Scale -->
+    <color name="red">#EC0000</color>
+    <color name="red_brick">#F45F5F</color>
+
+    <!-- Blue Scale -->
+    <color name="blue">#A0ADCE</color>
+    <color name="blue_eyes">#91A4D4</color>
+    <color name="blue_moon_alpha">#D21C2349</color>
+
+    <!-- Green Scale -->
+    <color name="green">#18AE5D</color>
+</resources>

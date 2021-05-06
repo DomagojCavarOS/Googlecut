@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ceraBoldBlack20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@font/cera_pro_bold</item>
+    </style>
+
+    <style name="ceraBoldWhite20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/cera_pro_bold</item>
+    </style>
+
+    <style name="ceraBoldGray20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gray_sky_line</item>
+        <item name="android:fontFamily">@font/cera_pro_bold</item>
+    </style>
+
+    <style name="ceraBoldGray14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_sky_line</item>
+        <item name="android:fontFamily">@font/cera_pro_bold</item>
+    </style>
+
+    <style name="ceraRegularWhite20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/cera_pro_regular</item>
+    </style>
+
+    <style name="boldWhite20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/cera_pro_bold</item>
+    </style>
+
+    <style name="progressColor">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="regularBlueEyes16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue_eyes</item>
+        <item name="android:fontFamily">@font/cera_pro_regular</item>
+    </style>
+</resources>

@@ -37,10 +37,11 @@ object versions {
     val arch = "2.2.0"
     val androidTest = "1.0.2"
     val gson = "2.8.6"
-    val koin = "2.1.6"
+    val koin = "3.0.1"
     val constraint = "1.1.3"
     val coroutines = "1.3.9"
     val room = "2.2.6"
+    val multidex = "2.0.1"
 }
 
 object plugin {
@@ -60,6 +61,7 @@ object deps {
     val gson = "com.google.code.gson:gson:${versions.gson}"
     val glide = "com.github.bumptech.glide:glide:${versions.glide}"
     val glideCompiler = "com.github.bumptech.glide:compiler:${versions.glide}"
+    val multidex = "com.android.support:multidex:${versions.multidex}"
 
     object kotlinx {
         val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}"
@@ -93,8 +95,9 @@ object deps {
     }
 
     object koin {
-        val android = "org.koin:koin-android:${versions.koin}"
+        val android = "io.insert-koin:koin-android:${versions.koin}"
         val viewModel = "org.koin:koin-androidx-viewmodel:${versions.koin}"
+        val ext = "io.insert-koin:koin-android-ext:${versions.koin}"
     }
 
     object epoxy {
@@ -109,6 +112,7 @@ object deps {
     object squareup {
         val retrofit = "com.squareup.retrofit2:retrofit:${versions.retrofit}"
         val rxJavaAdapter = "com.squareup.retrofit2:adapter-rxjava3:${versions.retrofit}"
+        val coroutinesAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${versions.coroutines}"
         val converterGson = "com.squareup.retrofit2:converter-gson:${versions.retrofit}"
         val okhttp = "com.squareup.okhttp3:okhttp:${versions.okhttp}"
         val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${versions.okhttp}"
